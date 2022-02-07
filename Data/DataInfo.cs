@@ -6,7 +6,7 @@ namespace CRUD.Data
 {
     public class DataInfo
     {
-        private string connectionString = @"Data Source=LAPTOP-C59IR2RT\SQLEXPRESS;Initial Catalog=CRUD;User ID=root;Password=Root@123;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;Trusted_Connection=True";
+        private string connectionString = @"Data Source=LAPTOP-C59IR2RT\SQLEXPRESS;Initial Catalog=CRUD;User ID=root;Password=*******;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;Trusted_Connection=True";
         public List<StudentInfo> FetchAll()
         {
             List<StudentInfo> returnList = new List<StudentInfo>();
